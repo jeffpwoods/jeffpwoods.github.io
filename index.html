@@ -4,51 +4,44 @@
         <title>
             All About Oliver
         </title>
-        <style>
-        table, td {
-            border: 1px solid
-        }
-        .center {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 25%;
-        }
-        p {text-align: center}
-        figcaption {text-align: center}
-        </style>
+        <link rel="stylesheet" href="./styles.css">
     </head>
-    <body style="background-color: lightgreen">
-        <nav>
+    <body>
             <table>
                 <tr>
-                    <td><button>Photos</button></td>
-					<td><button>About Me</button></td>
-					<td><button>Meet the Fam</button></td>
+                    <td><a href="./photos/index.html"><button>Photos</button></a></td>
+                    <td><a><button>About Me</button></a></td>
+                    <td><button>Meet the Fam</button></td>
                 </tr>
             </table>
-        </nav>
         <header>
-            <h1 align="center">Oliver Paul</h1>
+            <h1 class="center" id="mainheader"><b>Oliver Paul</b></h1>
         </header>
         <figure>
-            <img src="./Oliver_1.jpg" width="150" height="350" class="center"/>
-            <figcaption>Hello World! My name is Oliver Paul</figcaption>
+            <img src="./Oliver_1.jpg" width="250px" height="450px" class="center"/>
+            <figcaption><b>Hello World! My name is Oliver Paul</b></figcaption>
         </figure>
 		<figure>
-			<img src="./full_family.jpg" width="250" height="250" class="center"/>
-			<figcaption>For now, say Hi to my family<br>
-						This is my Mom, Dad, and big sister Peyton!
+			<img src="./full_family.jpg" class="center"/>
+			<figcaption><b>For now, say Hi to my family<br>
+						This is my Mom, Dad, and big sister Peyton!</b>
 			</figcaption>
 		</figure>
         <main>
             <section>
-               <p>
-                   Check back regularly to see all the new things that I will be doing and learning!<br>
-				   There is not much on here yet, we just wanted to get something started.<br>
-				   But, we will add new things all the time!
+               <p id="temp">
+                   <b>Check back regularly to see all the new things that I will be doing and learning!</b><br>
+				   <hr>
+                   <p id="newitems">
+                       <b>New Items to Check Out!</b>
+                   </p>
+                   <a href="./photos/index.html"><b>New Additions</b></a>
+				   <br>
+				   <br>
+				   <!--In the mean time, feel free to leave a comment for me! ---> 
                </p>
             </section>
         </main>
+		
     </body>
 </html>

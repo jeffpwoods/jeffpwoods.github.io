@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Photos</title>
+        <style>
+            body {
+                background-image: url("./babyblue.jpg");
+                
+            }
+
+            .tummytime, .cribtime, .sotalkative,
+            .roughlife {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 25%;
+            }
+
+            .caption {
+                display: block;
+                text-align: center;
+                font-family: 'Playfair Display', serif;
+                font-size: 25px;
+                font-style: italic;
+                background-color: white;
+                color: black;
+                opacity: 0.75;
+            }
+
+            .pageheader {
+                text-align: center;
+                font-size: large;
+                color: black;
+            }
+
+        </style>
+    </head>
+    <h1 class="pageheader">Photos!</h1>
+    <hr>
+    <body>
+        <figure>
+            <img src="./tummy_time.jpg" width="500px" height="500px" class="tummytime">
+            <figcaption class="caption"><b>Enjoying my tummy time. Getting so good at raising my head!</b></figcaption>
+        </figure>
+        <video src="./playing_in_bed.MOV" height="500px" controls class="cribtime">Playing With My New Toys</video>
+        <figcaption class="caption"><b>Playing with my new toys :)</b></figcaption>
+        <video src="./so_talkative.MOV" height="500px" controls class="sotalkative"></video>
+        <figcaption class="caption"><b>So talkative <3</b></figcaption>
+        <video src="./rough_life.MOV" height="500px" controls class="roughlife"></video>
+        <figcaption class="caption"><b>Such a Rough Life!</b></figcaption>
+    </body>
+    
+</html>

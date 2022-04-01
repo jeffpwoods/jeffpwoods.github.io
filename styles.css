@@ -1,0 +1,28 @@
+body {
+   background-image: url('./olivebackground.jpg');
+}
+
+table, td {
+    border: 1px solid
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#temp {
+    text-align: center;
+    
+}
+
+figcaption {
+    text-align: center;
+}
+
+#mainheader {
+    font-style: italic;
+    font-family: cursive;
+}
